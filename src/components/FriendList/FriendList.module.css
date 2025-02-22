@@ -1,0 +1,12 @@
+.list {
+  display: flex;
+  gap: 16px;
+  max-width: 680px;
+}
+
+.item {
+  border: 2px solid #101010;
+  border-radius: 8px;
+  min-width: 0;
+  padding: 14px;
+}
