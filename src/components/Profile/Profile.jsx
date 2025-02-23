@@ -11,7 +11,7 @@ export default function Profile({ name, tag, location, image, stats }) {
       </div>
       <ul className={css.statsList}>
         <li className={css.statsListItem}>
-          <span>Follovers</span>
+          <span>Followers</span>
           <span>{stats.followers}</span>
         </li>
         <li className={css.statsListItem}>
